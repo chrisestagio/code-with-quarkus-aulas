@@ -3,6 +3,7 @@ package org.acme;
 import jakarta.persistence.Entity;
 import io.quarkus.hibernate.orm.panache.PanacheEntity;
 
+@Entity
 public class Aula extends PanacheEntity {
     public int id;
     public String nome;
